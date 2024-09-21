@@ -13,7 +13,6 @@ nav{
 h2{
     color: blue;
     text-decoration: underline;
-    
 }
 P{
     font-size: 15px;
@@ -52,8 +51,9 @@ article {
 
 aside {
     flex: 1;
-    background-color: #f4f4f4;
-    padding: 10px;
+    background-color: #adaeab;
+    padding: 5px;
+    border-radius: 5px;
     margin-left: 20px;
 }
 
@@ -62,6 +62,12 @@ img {
     margin: 0 auto;
     widhth: 200px;
     height: 200px;
-    background-color: #f4f;
-    border-radius: 10px;
+}
+.name-university{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.name-university p{
+    margin-left:5px;
 }
