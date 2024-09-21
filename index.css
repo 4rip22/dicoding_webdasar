@@ -8,11 +8,13 @@ body {
 
 nav {
     display: flex;
-    justify-content: flex-end; 
     background-color: #2299ff;
     color: white;
-    padding: 5px;
-    gap: 10px;
+    gap: 20px;
+}
+nav a{
+    margin-left: 10px;
+    margin-right: 50px;
 }
 
 h2 {
@@ -43,8 +45,10 @@ a {
 header {
     background-color: #2299ff;
     color: white;
-    text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
