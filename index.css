@@ -44,7 +44,7 @@ header {
     background-color: #2299ff;
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 main {
@@ -63,7 +63,10 @@ aside {
     background-color: #adaeab;
     padding: 5px;
     border-radius: 5px;
-    height: 60%;
+    height: 55%;
+}
+aside:hover {
+    background-color: #2299ff;
 }
 
 img {
