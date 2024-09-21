@@ -1,38 +1,46 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
 }
 
-nav{
+nav {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end; 
     background-color: #2299ff;
     color: white;
     padding: 5px;
     gap: 10px;
 }
-h2{
+
+h2 {
     color: blue;
     text-decoration: underline;
 }
-P{
+
+p {
     font-size: 15px;
     font-weight: bold;
-    font-family: 'New roman', Courier, monospace;
-    justify-content: 20%;
+    font-family: 'Times New Roman', Courier, monospace; 
 }
-h1{
+
+h1 {
     display: flex;
     font-size: 20px;
     font-family: 'Arial', Courier, monospace;
     margin-left: 17px;
 }
-a{
+
+a {
     text-decoration: none;
     margin-left: 5%;
     margin-right: 5%;
     color: white;
 }
-header, footer {
+
+header {
     background-color: #2299ff;
     color: white;
     text-align: center;
@@ -43,6 +51,7 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    flex: 1; 
 }
 
 article {
@@ -54,20 +63,29 @@ aside {
     background-color: #adaeab;
     padding: 5px;
     border-radius: 5px;
-    margin-left: 20px;
+    height: 60%;
 }
 
 img {
     display: block;
     margin: 0 auto;
-    widhth: 200px;
     height: 200px;
 }
-.name-university{
+
+.name-university {
     display: flex;
     justify-content: center;
     margin-top: 0;
 }
-.name-university p{
-    margin-left:5px;
+
+.name-university p {
+    margin-left: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #2299ff;
+    color: white;
+    padding: 5px;
 }
